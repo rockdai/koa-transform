@@ -1,4 +1,8 @@
 # koa-transform
+
+[![Build Status](https://travis-ci.org/rockdai/koa-transform.svg?branch=master)](https://travis-ci.org/rockdai/koa-transform)
+[![Coverage Status](https://coveralls.io/repos/github/rockdai/koa-transform/badge.svg?branch=master)](https://coveralls.io/github/rockdai/koa-transform?branch=master)
+
 Transform request parameters style
 
 ## Useage
