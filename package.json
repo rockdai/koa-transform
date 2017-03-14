@@ -1,0 +1,38 @@
+{
+  "name": "koa-transform",
+  "description": "Transform request parameters style",
+  "version": "1.0.0",
+  "keywords": [
+    "koa",
+    "middleware",
+    "parameter"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:rockdai/koa-transform.git"
+  },
+  "scripts": {
+    "test": "NODE_ENV=test mocha --reporter spec",
+    "test-cov": "NODE_ENV=test node ./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha",
+    "test-travis": "NODE_ENV=test node ./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha --report lcovonly"
+  },
+  "dependencies": {
+    "koa-is-json": "^1.0.0",
+    "var-style": "^0.0.1"
+  },
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "koa": "^2.1.0",
+    "koa-bodyparser": "^4.1.0",
+    "mocha": "^3.2.0",
+    "supertest": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=7.6"
+  },
+  "license": "MIT"
+}
